@@ -1,0 +1,23 @@
+{
+  "name": "bookmarker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./app/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paopaomo/bookmarker.git"
+  },
+  "author": "Zi Ye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paopaomo/bookmarker/issues"
+  },
+  "homepage": "https://github.com/paopaomo/bookmarker#readme",
+  "dependencies": {
+    "electron": "^7.1.11"
+  }
+}
