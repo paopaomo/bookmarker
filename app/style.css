@@ -9,3 +9,78 @@ html {
 body, input {
     font: menu; // 使用运行页面的操作系统默认系统字体
 }
+
+.book-marker {
+    min-width: 800px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.error-message {
+    color: rosybrown;
+    height: 16px;
+    margin-top: 10px;
+}
+
+.new-link-form {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.new-link-url {
+    width: 400px;
+    outline: none;
+    height: 32px;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 0 5px;
+    border: 2px solid yellowgreen;
+}
+
+.new-link-submit {
+    background-color: yellowgreen;
+    padding: 0 10px;
+    height: 32px;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.new-link-submit:disabled {
+    cursor: not-allowed;
+}
+
+.clear-storage {
+    background-color: rosybrown;
+    width: 160px;
+    height: 32px;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 20px;
+}
+
+.links {
+    margin: 10px 0 40px 0;
+}
+
+.link span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    margin-right: 5px;
+}
+
+.link a {
+    color: cornflowerblue;
+    text-decoration: none;
+}

@@ -9,18 +9,17 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<h1>Hello, Electron</h1>
-<div class="error-message"></div>
-<section class="add-new-link">
+<div class="book-marker">
     <form class="new-link-form">
-        <input type="url" placeholder="URL" size="100" required class="new-link-url" />
-        <input type="submit" value="Submit" class="new-link-submit" disabled />
+        <input type="url" placeholder="Please input url" size="100" required class="new-link-url" />
+        <div>
+            <input type="submit" value="Submit" class="new-link-submit" disabled />
+            <button class="clear-storage">Clear Storage</button>
+        </div>
     </form>
-</section>
-<section class="links"></section>
-<section class="controls">
-    <button class="clear-storage">Clear Storage</button>
-</section>
+    <div class="error-message"></div>
+    <section class="links"></section>
+</div>
 <script>
     require('./renderer');
 </script>

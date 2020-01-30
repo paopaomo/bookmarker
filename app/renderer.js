@@ -33,12 +33,10 @@ const getLinks = () => {
 
 const convertToElement = (link) => {
     return `
-        <div class='link'>
-            <h3>${link.title}</h3>
-            <p>
-                <a href="${link.url}">${link.url}</a>
-            </p>
-        </div>
+        <p class="link">
+            <span></span>
+            <a href="${link.url}">${link.title}</a>
+        </p>
     `;
 };
 
